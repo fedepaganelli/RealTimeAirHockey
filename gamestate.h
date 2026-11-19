@@ -26,7 +26,7 @@ struct GameState {
     bool trigger_goal_sound;
 
     GamePhase phase;
-    int winner; // 1 = Giocatore, 2 = IA, 0 = Nessuno
+    int winner; // 1 = me, 2 = IA, 0 = nobody
     
 };
 
